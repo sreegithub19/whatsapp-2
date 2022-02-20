@@ -59,7 +59,7 @@ function Sidebar(){
                 <SearchInput placeholder="Search in chats" />
             </Search>
 
-            <SidebarButton onClick={createChat}>Start a new chat!</SidebarButton>
+            <SidebarButton onClick={createChat}>Start a new chat now!</SidebarButton>
             
             {/* List of chats */}
             {chatsSnapshot?.docs.map((chat) =>(
