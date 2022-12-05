@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Versions used:
+
+- Angular CLI: 14.1.2
+- Node: 16.10.0
+- Package Manager: npm 7.24.0
+
+Commands to run:
+
+- Install "vscode-styled-components" extension in VS code.
+- npm install --global yarn
+- yarn add styled-components @material-ui/core @material-ui/icons firebase email-validator react-firebase-hooks better-react-spinkit moment timeago-react
+- Change "firebase" version to "8.0.0" and "react-firebase-hooks" version to "^3.0.4" in package.json
+- yarn install
+- yarn dev
+
 ## Getting Started
 
 First, run the development server:
